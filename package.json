@@ -1,0 +1,24 @@
+{
+  "name": "javascript_abschlussprojekt",
+  "version": "0.1.0",
+  "description": "Database with maple syrup recipes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "nano",
+    "db",
+    "couch",
+    "recipes"
+  ],
+  "author": "A.Weber",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nano": "^8.2.2",
+    "nodemon": "^2.0.3"
+  }
+}

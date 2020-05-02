@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recipes</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <script src="frontend.js" type="module" defer></script>
+        <script src="ilist.js" type="module" defer></script>
+    </head>
+    <body>
+        <main class="container-fluid">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-7">
+                    <div id="output">
+                        <h1 class="bg-info">Maple Syrup Recipes</h1>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="ilist">
+                        <h1 class="bg-info">Ingredient List</h1>
+                        <!--<a id="download-link" href="" download="download.txt">Download</a><br>-->
+                        <button id="download-button" class="btn btn-warning">Download</button>
+                        <input class="new-ingredient form-control" placeholder="New ingredient..." autofocus>
+                        <ul class="ingredient-list list-group">
+                        </ul>                    
+                            <!--
+                            <li class="crossed-out">
+                                <div class="view">
+                                    <input class="check" type="checkbox" checked>
+                                    <label>Zutat 1</label>
+                                    <button class="delete">X</button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="view">
+                                    <input class="check" type="checkbox">
+                                    <label>Zutat 2</label>
+                                    <button class="delete">X</button>
+                                </div>
+                            </li>
+                            -->
+                        <div class="footer">
+                            <span><strong class="ingredient-count">0</strong> ingredient(s) left</span>
+                            <button class="delete-checked btn btn-danger">Delete checked</button>
+                        </div>     
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </main>        
+    </body>
+</html>
